@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>7.9 CSS selectors</title>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+
+    <script src="sketch.js" type="text/javascript"></script>
+
+    <style> 
+    .header {
+      font-family: Impact;
+      color: #f2a9db;
+      text-align: center;
+    }
+    #author {
+      color: #ba7aa5;
+    }
+    
+    #intro{
+     text-decoration: underline; 
+     text-decoration-color: #f2a9db; 
+    }
+    
+    .story {
+      font-family: Helvetica;
+      font-size: 10pt;
+    }
+    
+    #question {
+      font-weight: bold;
+      font-style: italic;
+      text-transform: capitalize;
+    }
+    
+    #button {
+      padding: 10px;
+      font-family: Impact;
+      font-size: 10pt;
+      color: #ba7aa5;
+    }
+    
+    </style>
+  </head>
+  
+  <body>
+    <h1 class='header'>Pastel rectangles without any meaning</h1>
+    <h2 id='author' class='header'>Valerie Fuchs, 2017 (Amsterdam)</h2>
+    <p id='intro' class='story'>It was as an unemployed person, just having turned 30, that Valerie discovered her passion for art.</p>
+    <p class='story'>Valerie was born in 1987 in a small town called Bad Soden, Germany. For the first 19 years of her life, she never had to move houses and enjoyed the pleasures of spending a lot of time in the garden, playing with her little sister Alena.</p> 
+    <p class='story'>Alena was a rather shy but also stubborn child, who always loved crafting and creating her own jewellery. While Alena was working on her first jewellery line called 'Blauhund Beads', Valerie developed an interest for becoming famous. Her plans took shape one day, but then she would toss them the other day.</p>
+    <p id='question' class='story'>How could she become well known for a talent she hasn't discovered yet? Young Valerie had no idea, but this very question would turn into the big question of her life.</p>
+    <button id='button'>CLICK NOW</button>
+    <p></p>
+  </body>
+  
+</html>
